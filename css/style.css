@@ -153,3 +153,17 @@ a {
 ul {
   list-style: none;
 }
+
+ul li:nth-child(2) {
+  font-weight: bold;
+}
+
+ul li:nth-child(3) {
+  color: red;
+  font-weight: bold;
+}
+
+li > s {
+  color: black;
+  font-weight: normal;
+}
