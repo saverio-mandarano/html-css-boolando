@@ -28,9 +28,33 @@ header .actions {
 }
 
 header .logo img {
-  width: 50%;
+  max-width: 50%;
   max-height: 50px;
   margin: 10px;
+}
+
+/* Main */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: calc(100% / 3 - (40px / 3));
+  border: solid 1px #ccc;
+  /* position: relative; */
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
 }
 
 /* Footer */
