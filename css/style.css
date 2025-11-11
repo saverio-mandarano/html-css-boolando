@@ -57,13 +57,25 @@ main {
   height: auto;
 }
 
-.discount-label {
+.label {
   padding: 5px 10px;
   color: #fff;
-  background-color: red;
   font-weight: bold;
   position: absolute;
   bottom: 70px;
+}
+
+.label.discount {
+  background-color: red;
+}
+
+.label.soustenibility {
+  background-color: green;
+}
+
+.label.soustenibility.badge {
+  position: absolute;
+  left: 65px;
 }
 
 .cuore {
