@@ -53,11 +53,31 @@ main {
   cursor: pointer;
 }
 
-.card img {
-  width: 100%;
-  height: auto;
+/* sezione per nascondere la prima img e far apparire la seconda al passaggio del mouse */
+.img-wrapper {
+  position: relative;
 }
 
+.img-wrapper img {
+  width: 100%;
+}
+
+.img-wrapper img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.img-wrapper:hover img:nth-child(2) {
+  opacity: 1;
+}
+
+.img-wrapper:hover img:nth-child(1) {
+  opacity: 0;
+}
+
+/* label section */
 .label {
   padding: 5px 10px;
   color: #fff;
@@ -79,6 +99,7 @@ main {
   left: 65px;
 }
 
+/* heart section */
 .cuore {
   position: absolute;
   right: 0px;
@@ -92,7 +113,7 @@ main {
   margin-bottom: 50px;
 }
 
-/* 
+/* tecnica di centratura per icona cuore al centro della carta
 .fa-heart {
   position: absolute;
   top: 50%;
