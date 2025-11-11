@@ -5,27 +5,52 @@
   box-sizing: border-box;
 }
 
-/* footer */
+/* /* footer styles:  */
 /* 
-- footer contenitore 
+footer contenitore 
     - info section
-        -logo
+        -company name
         -legal  section
             - legal information
             - privacy information
             - Cancellation rights
-    - contatti
+    - contacts
         - Trovaci anche su:
-        - social section
+        - social-networks
             -twitter
-            -facebook
             -instagram
-            -pinterest
+            -facebook
             -youtube
-
-
-
-
-
-
 */
+
+/* Footer */
+footer {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+footer .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+footer .social-networks {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 15px;
+  margin: 10px;
+}
+
+/* Generics */
+a {
+  color: #fff;
+}
