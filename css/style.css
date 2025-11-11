@@ -7,13 +7,13 @@
 
 /* /* footer styles:  */
 /* 
-footer contenitore 
-    - info section
-        -company name
-        -legal  section
-            - legal information
-            - privacy information
-            - Cancellation rights
+-footer 
+    - useful-information
+        -company-name
+        -information-links
+            - legal-information
+            - privacy-information
+            - cancellation-rights
     - contacts
         - Trovaci anche su:
         - social-networks
@@ -50,7 +50,21 @@ footer .social-networks {
   margin: 10px;
 }
 
+footer .information-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+footer .useful-information {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* Generics */
 a {
   color: #fff;
+  text-decoration: none;
 }
