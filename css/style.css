@@ -27,8 +27,10 @@ header .actions {
   gap: 15px;
 }
 
-header .logo {
+header .logo img {
   width: 50%;
+  max-height: 50px;
+  margin: 10px;
 }
 
 /* Footer */
