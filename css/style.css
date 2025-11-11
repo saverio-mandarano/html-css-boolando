@@ -5,38 +5,6 @@
   box-sizing: border-box;
 }
 
-/* header styles: */
-/*  
--header
-    -categories
-        -man
-        -woman
-        -kid
-    -logo
-    -actions
-        -account
-        -favorites
-        -cart
-*/
-
-/* /* footer styles:  */
-/* 
--footer 
-    - useful-information
-        -company-name
-        -information-links
-            - legal-information
-            - privacy-information
-            - cancellation-rights
-    - contacts
-        - Trovaci anche su:
-        - social-networks
-            -twitter
-            -instagram
-            -facebook
-            -youtube
-*/
-
 /* Footer */
 footer {
   background-color: rgb(0, 0, 0);
