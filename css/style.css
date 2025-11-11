@@ -62,7 +62,7 @@ main {
   color: #fff;
   font-weight: bold;
   position: absolute;
-  bottom: 70px;
+  bottom: 150px;
 }
 
 .label.discount {
@@ -87,6 +87,10 @@ main {
   padding: 10px;
 }
 
+.product-info {
+  margin-bottom: 50px;
+}
+
 /* 
 .fa-heart {
   position: absolute;
@@ -99,6 +103,7 @@ main {
   display: block;
 }
 */
+
 /* Footer */
 footer {
   background-color: rgb(0, 0, 0);
@@ -143,4 +148,8 @@ footer .useful-information {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
